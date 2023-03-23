@@ -326,7 +326,7 @@ window.addEventListener('keypress' , function(keypress){
                         z : "2030",
                         y : 0,
                         x : 0,
-                        duration : 1.5,
+                        duration : 2,
                         ease: "expo.out",
                   
                   });
@@ -340,7 +340,7 @@ window.addEventListener('keypress' , function(keypress){
                   z : "1530",
                   y : 0,
                   x : 0,
-                  duration : 1.5,
+                  duration : 2,
                   ease: "expo.out",
             
             });
