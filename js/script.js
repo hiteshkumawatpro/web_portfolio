@@ -267,7 +267,7 @@ const greeting = ["Good Morning", "Good AfterNoon" , "Good Evening" ]
         );
       
 
-      const iipe_intro_textgeo = new TextGeometry( 'Welcome \n  to my   \n  Portfolio ', {
+      const iipe_intro_textgeo = new TextGeometry( 'Welcome to my \n    Portfolio ', {
             font: font,
             size: 2.5,
             height: .1,
@@ -291,19 +291,19 @@ const greeting = ["Good Morning", "Good AfterNoon" , "Good Evening" ]
        const first_textMesh = new THREE.Mesh( first_textgeo , textMaterial);
       first_textMesh.position.z = 2500;
       first_textMesh.position.x = -20;
-     first_textMesh.position.y = 5;
+     first_textMesh.position.y = 2;
       scene.add(first_textMesh);
 
       const iipe_intro_textMesh = new THREE.Mesh( iipe_intro_textgeo , textMaterial);
       iipe_intro_textMesh.position.z = 2000;
       iipe_intro_textMesh.position.x = -20;
-	 iipe_intro_textMesh.position.y = 5;
+	 iipe_intro_textMesh.position.y = 2;
       scene.add(iipe_intro_textMesh);   
 
       const third_textMesh = new THREE.Mesh( iipe2_intro_textgeo , textMaterial);
       third_textMesh.position.z = 1500;
       third_textMesh.position.x = -20;
-	  third_textMesh.position.y = 5;
+	  third_textMesh.position.y = 2;
       scene.add(third_textMesh);
  } ); 
 
