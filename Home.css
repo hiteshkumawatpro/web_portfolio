@@ -92,6 +92,8 @@ body {
 
 
 .progressbarcontainer{
+   background-image: url("assets/bg/abstract-textured-backgound.jpg");
+  background-size: cover;
   position: absolute;
   z-index: 4;
   left: 50%;
