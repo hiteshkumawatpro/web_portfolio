@@ -535,6 +535,31 @@ const arr = ["Object015_Material_#2097633441_0", "Object009_Material_#2097633435
 var should_check_intro = true;
 
 
+
+
+
+const size = {
+      width: window.innerWidth,
+      height: window.innerHeight
+  }
+window.addEventListener('resize', () => {
+      //Update Sizes:
+      size.width = window.innerWidth;
+      size.height = window.innerHeight;
+  
+      //Camera
+      camera.aspect = size.width/size.height
+      camera.updateProjectionMatrix()
+  
+      //Update renderer:
+      renderer.setSize(size.width, size.height)
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+  })
+
+
+
+
+
 export function animates(){
 
       if (should_check_intro) {
