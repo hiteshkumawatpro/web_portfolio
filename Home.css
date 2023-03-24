@@ -59,7 +59,7 @@ body {
 
 #spacebar_nav{
   color: #3d7d81;
-  text-align: center;
+
   animation: nav_animation 3s infinite;
 }
 
@@ -75,8 +75,7 @@ body {
   position: absolute;
   visibility: hidden;
   bottom: 5%;
-  margin-left : auto ;
-  margin-right : auto;
+  margin-left : 40%;
  
 }
 
