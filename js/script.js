@@ -268,7 +268,7 @@ const greeting = ["Good Morning", "Good AfterNoon" , "Good Evening" ]
         );
       
 
-      const iipe_intro_textgeo = new TextGeometry( 'Welcome to my \n Portfolio ', {
+      const iipe_intro_textgeo = new TextGeometry( 'Welcome \n    to my   \n    Portfolio ', {
             font: font,
             size: 2.5,
             height: .1,
