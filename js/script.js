@@ -291,19 +291,19 @@ const greeting = ["Good Morning", "Good AfterNoon" , "Good Evening" ]
        const first_textMesh = new THREE.Mesh( first_textgeo , textMaterial);
       first_textMesh.position.z = 2500;
       first_textMesh.position.x = -20;
-     first_textMesh.position.y = 10;
+     first_textMesh.position.y = 5;
       scene.add(first_textMesh);
 
       const iipe_intro_textMesh = new THREE.Mesh( iipe_intro_textgeo , textMaterial);
       iipe_intro_textMesh.position.z = 2000;
       iipe_intro_textMesh.position.x = -20;
-	 iipe_intro_textMesh.position.y = 10;
+	 iipe_intro_textMesh.position.y = 5;
       scene.add(iipe_intro_textMesh);   
 
       const third_textMesh = new THREE.Mesh( iipe2_intro_textgeo , textMaterial);
       third_textMesh.position.z = 1500;
       third_textMesh.position.x = -20;
-	  third_textMesh.position.y = 10;
+	  third_textMesh.position.y = 5;
       scene.add(third_textMesh);
  } ); 
 
