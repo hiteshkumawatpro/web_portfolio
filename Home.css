@@ -853,10 +853,7 @@ overflow-y:scroll;
 
 @media (max-width: 991px) {
   
-body {
-  zoom : 90%;
 
-}
    .u-section-1 {
     min-height: 1136px;
   }
@@ -1082,6 +1079,7 @@ body {
 }
 
 @media (max-width: 575px) {
+ 
    .u-section-1 {
     min-height: 2082px;
   }
