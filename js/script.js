@@ -107,6 +107,7 @@ function hometoroom(){
       website_class.style.visibility = "hidden";
       website_class.style.height = "0";
       website_class_visible = false;
+ website_class.style.overflow = "hidden";
       camera.rotation.set(0,1.3 , 0);
       Raycaster_enable = true;
       website_class_visible = false;
@@ -594,6 +595,7 @@ export function animates(){
            skipcontainer.style.display = 'hidden';
            website_class.style.visibility = "visible";
            website_class.style.height = "100vh";
+	       website_class.style.overflow = "visible";
            website_class.style.zindex = "10";
            website_class_visible = true;
 
