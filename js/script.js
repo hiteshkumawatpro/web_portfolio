@@ -316,7 +316,7 @@ const greeting = ["Good Morning", "Good AfterNoon" , "Good Evening" ]
 var Raycaster_enable = false;
 
 window.addEventListener('keypress' , function(keypress){
-      console.log(camera.position);
+      
       if (isloaded && keypress.code == "Space") {
             progressbarcontainer.style.display = 'none';
 
@@ -591,7 +591,7 @@ export function animates(){
 
       if(camera.position.x == 240 && camera.position.y == -65 && camera.position.z == 180 && !website_class_visible){
            //                  Explore 
-            console.log(" run ");
+           
            skipcontainer.style.display = 'hidden';
            website_class.style.visibility = "visible";
            website_class.style.height = "100vh";
